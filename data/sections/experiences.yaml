@@ -1,0 +1,36 @@
+# section information
+section:
+  name: Experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Hvar Consulting.
+    url: "https://hvarconsulting.com.br/"
+    location: São Paulo, Brazil
+    # company overview
+    overview: EM BREVE
+  positions:
+  - designation: Data Scientist
+    start: Jul 2020
+
+    responsibilities:
+    - EM BREVE
+
+- company:
+    name: Trestto
+    url: "https://www.preexample.com"
+    location: São Paulo, Brazil
+    overview: Responsável por desenvolver a plataforma de Machine Learning da companhia.
+  positions:
+  - designation: Data Scientist
+    start: Feb 2019
+    end: Jun 2020
+    responsibilities:
+    - Data Scientist
+    - Lead Data Science team

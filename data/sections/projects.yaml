@@ -1,0 +1,30 @@
+# section information
+section:
+  name: Projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "professional"
+- name: Academic
+  filter: "academic"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: Comics Translator
+  logo: images/projects/kubernetes.png
+  role: Contributor
+  timeline: "March 2019 - Present"
+  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: ComicsTranslator is a project designed to develop a machine learning tool that can translate comics, starting in English into Portuguese. The goal is to speed up the translation process, which often takes time or is not done for lack of professionals, preventing a larger audience from having access to this media format.
+  tags: ["hobby"]
